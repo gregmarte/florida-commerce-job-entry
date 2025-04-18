@@ -50,7 +50,7 @@ def load_jobs(driver, my_list):
 
 def __main__():
     driver = webdriver.Chrome()
-    driver.get("connect.myflorida.com")
+    driver.get("https://connect.myflorida.com")
     
     #insert breakpoint 1 of 2 here. Login and answer the questions. Navigating to the jobs page.
     print("Insert breakpoint here. Manually complete login.")
